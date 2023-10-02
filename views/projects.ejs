@@ -1,0 +1,46 @@
+<!-- Jayesh Uttam -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="/public/stylesheets/projects.css" />
+  </head>
+  <header><%- include('partials/navbar.ejs') %></header>
+  <body>
+    <center>
+      <h1>Projects</h1>
+    </center>
+    <div class="project-card">
+      <img src="/public/images/2048.png" alt="2048 Game" />
+      <h2>2048 Game</h2>
+      <p>
+        Play the classic 2048 puzzle game! Merge the tiles to reach the 2048
+        tile and win the game. Challenge your mind and strategy skills.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="/public/images/car.jpeg" alt="Car Racing Game" />
+      <h2>Car Racing Game</h2>
+      <p>
+        Get ready for an adrenaline-pumping car racing experience! Race against
+        opponents, upgrade your cars, and conquer the tracks to become the
+        ultimate champion.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <img src="/public/images/flappy.png" alt="Flappy Bird Game" />
+      <h2>Flappy Bird Game</h2>
+      <p>
+        Fly through the pipes and avoid obstacles in this addictive Flappy Bird
+        remake. Test your reflexes and see how far you can go in this
+        challenging game.
+      </p>
+    </div>
+
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>

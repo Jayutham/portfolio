@@ -1,0 +1,38 @@
+<!-- Jayesh Uttam -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/public/stylesheets/home.css" />
+  </head>
+
+  <body>
+    <header><%- include('partials/navbar.ejs') %></header>
+
+    <main>
+      <center>
+        <section class="home-page">
+          <h1>Hello! I'm Jayesh Uttam, Welcome to my portfolio</h1>
+          <img src="/public/images/profile.jpeg" alt="profile" />
+
+          <p>
+            Welcome to my digital space! I'm thrilled to have you here. Explore
+            my journey, projects, and passions as we embark on a digital
+            adventure together
+          </p>
+          My mission is to inspire, educate, and innovate. I'm dedicated to
+          creating meaningful and impactful solutions that make a positive
+          difference in the world. Through our work, we aim to leave a lasting
+          mark by pushing the boundaries of creativity and technology, one
+          project at a time
+        </section>
+        <div class="button-container">
+          <a href="/about">Learn more about me</a>
+        </div>
+      </center>
+    </main>
+    <%- include('partials/footer.ejs') %>
+  </body>
+</html>
